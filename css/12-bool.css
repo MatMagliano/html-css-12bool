@@ -1,8 +1,20 @@
+body {
+  background-color: rgba(254, 160, 136, 40%);
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: coral;
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+[class*="col-"] {
+  float: left;
 }
