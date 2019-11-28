@@ -1,0 +1,7 @@
+.nasted {
+padding: 3px;
+}
+
+.nasted [class*=col-] {
+  background-color: coral;
+}
